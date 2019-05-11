@@ -13,7 +13,7 @@ import java.util.Date;
 @RequestMapping("/user")
 public class UserController {
     @RequestMapping("/getUser")
-    public User getUer(){
-        return new User("qq5sdfqq份hh地n方","11对方的1111",12,"",new Date());
+    public User getUer() {
+        return new User("qq5sdfqq份hh地n方", "11对方的1111", 12, "", new Date());
     }
 }
